@@ -1,0 +1,23 @@
+{
+  "author": "Noah H. Smith <nsmith@rendergardenmedia.com>",
+  "name": "alonso-counter",
+  "description": "Distributed log file aggregation, with persistence",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noazark/alonso-counter.git"
+  },
+  "main": "./lib/alonso-counter",
+  "bin": {
+    "alonso-counter": "./bin/alonso-counter"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "hook.io": "0.8.9",
+    "redis": "0.7.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
